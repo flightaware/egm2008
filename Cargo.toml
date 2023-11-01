@@ -1,0 +1,19 @@
+[package]
+name = "egm2008"
+version = "0.1.0"
+edition = "2021"
+authors = ["FlightAware", "Ben Burwell <ben.burwell@flightaware.com>"]
+description = "Earth Gravitational Model (EGM2008)"
+keywords = ["egm", "geoid", "gis"]
+license = "BSD-3-Clause"
+homepage = "https://github.com/flightaware/egm2008"
+repository = "https://github.com/flightaware/egm2008"
+categories = ["science::geo"]
+readme = "README.md"
+include = [
+  "src/*.rs",
+  "Cargo.toml"
+]
+
+[dependencies]
+thiserror = "1.0.50"
